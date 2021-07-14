@@ -60,10 +60,6 @@ li a span {
  height: 750px;
 }
 
-p {
-    font-size: 25px;
-    margin-left: 25%;
-}
 
 #main1 h2 {
     font-size: 25px;
@@ -92,10 +88,17 @@ p {
     /* width: 107px; */
     /* height: 95px; */
     /* display: block; */
-    width: 290px;
-    height: 290px;
+    border-radius: 100px;
+    width: 260px;
+    height: 260px;
     margin-left: 900px;
     margin-top: -175px;
+}
+
+.content1 p {
+    margin-left: 310px;
+    margin-bottom: 5px;
+    font-size: 25px;
 }
 
 /*---------------main2---------------*/
@@ -108,10 +111,12 @@ p {
 }
 
 .content2 img {
-    width: 390px;
-    height: 390px;
+    border-radius: 140px;
+    width: 350px;
+    height: 370px;
     margin-right: 100px;
 }
+
 
 .content2 {
     /*display: flex;*/
@@ -145,4 +150,11 @@ p.step1, p.step2, p.step3 {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 18px;
+}
+
+/*------------------footer---------------*/
+
+footer {
+    padding: 10px 0;
+    text-align: center;
 }
